@@ -4,14 +4,13 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-
 .mainarea {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background: lightcoral; */
+  background: lightcoral;
 }
 form {
   /* background: lightblue; */
@@ -19,7 +18,7 @@ form {
   flex-direction: column;
   width: 60%;
   max-width: 40rem;
-  height: 30%;
+  /* height: 40%; */
 }
 form > input {
   border-style: none;
@@ -35,6 +34,8 @@ form div {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: .2rem;
+  /* background: blanchedalmond; */
 }
 .rememberme {
   display: flex;
@@ -57,7 +58,8 @@ form a {
 }
 form button {
   border-style: none;
-  height: 10rem;
+  height: 3rem;
+  font-size: large;
   color: white;
   font-weight: bold;
 
@@ -65,17 +67,42 @@ form button {
   background: #69cfa0;
   border-radius: 0.2rem;
 }
+form button:hover {
+  background: #65c699;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+
+}
 img {
   width: 2rem;
   /* width: 2rem; */
 }
 .alternatemethods{
+  /* background: lightblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+}
+.alternatemethods div{
+  padding: .4rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(58, 57, 57);
 
 }
 .alternatemethods a{
   text-decoration: none;
+  margin-right: .2rem;
+}
+a:hover{
+  transform: translateY(-5px);
+  transition: 300ms ease-in-out;
 }
 input:focus {
   outline: none;
   border: solid lightseagreen;
+  transition: 300ms ease-in-out;
 }
