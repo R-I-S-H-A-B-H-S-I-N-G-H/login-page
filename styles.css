@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainarea {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: lightcoral; */
+}
+form {
+  /* background: lightblue; */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-width: 40rem;
+  height: 30%;
+}
+form > input {
+  border-style: none;
+  border: solid rgb(155, 154, 154);
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  padding: 0.8rem;
+  margin: 0.6rem;
+  font-weight: bold;
+  letter-spacing: 0.06rem;
+}
+form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.rememberme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rememberme input {
+  margin: 0.5rem;
+}
+.rememberme > div {
+  font-size: 0.9rem;
+  color: rgb(73, 72, 72);
+  font-weight: bold;
+}
+form a {
+  font-size: 0.9rem;
+  color: rgb(73, 72, 72);
+  font-weight: bold;
+}
+form button {
+  border-style: none;
+  height: 10rem;
+  color: white;
+  font-weight: bold;
+
+  margin: 0rem 1rem 0rem 1rem;
+  background: #69cfa0;
+  border-radius: 0.2rem;
+}
+img {
+  width: 2rem;
+  /* width: 2rem; */
+}
+.alternatemethods{
+
+}
+.alternatemethods a{
+  text-decoration: none;
+}
+input:focus {
+  outline: none;
+  border: solid lightseagreen;
+}
