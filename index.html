@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="validate.js"></script>
     <title>Login Page</title>
 </head>
 <body>
     <div class="mainarea">
+        <h1>SIGN IN</h1>
     <form>
-        <input class="username" type="text" placeholder="Username">
-        <input class="password" type="text" placeholder="Password">
+        <input required class="username" type="text" placeholder="Username">
+        <div class="usernameerror"></div>
+        <input required class="password" type="text" placeholder="Password">
+        <div class="passworderror"></div>
         <div >
             <div class="rememberme">
                 <input type="checkbox"></input>
