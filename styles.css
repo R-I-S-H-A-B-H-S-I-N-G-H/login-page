@@ -115,3 +115,15 @@ a:hover{
   transition: 300ms ease-in-out;
 }
 
+.createacc{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+
+
+  /* background: #60bb90; */
+}
+.createacc h3,a{
+  padding-right: .5rem;
+  color: rgb(58, 57, 57);
+}
