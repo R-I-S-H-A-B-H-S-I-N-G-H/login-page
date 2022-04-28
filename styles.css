@@ -12,6 +12,10 @@
   justify-content: center;
   background: lightcoral;
 }
+.mainarea h1{
+  color: rgb(48, 47, 47);
+  padding: 1rem;
+}
 form {
   /* background: lightblue; */
   display: flex;
@@ -22,13 +26,17 @@ form {
 }
 form > input {
   border-style: none;
-  border: solid rgb(155, 154, 154);
+  border: solid .15rem rgb(155, 154, 154);
   border-radius: 0.4rem;
   font-size: 1rem;
   padding: 0.8rem;
-  margin: 0.6rem;
+  margin: 0.2rem;
   font-weight: bold;
   letter-spacing: 0.06rem;
+}
+input:focus {
+  outline: none;
+  border: solid .15rem #60bb90;
 }
 form div {
   display: flex;
@@ -97,12 +105,13 @@ img {
   text-decoration: none;
   margin-right: .2rem;
 }
+.passworderror{
+  color: darkred;
+  font-weight: bold;
+  font-size: .9rem;
+}
 a:hover{
   transform: translateY(-5px);
   transition: 300ms ease-in-out;
 }
-input:focus {
-  outline: none;
-  border: solid lightseagreen;
-  transition: 300ms ease-in-out;
-}
+
